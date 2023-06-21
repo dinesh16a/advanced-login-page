@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    background: #4b0082;
+}
+.container{
+    width: 31.25em;
+    background: white;
+    padding: 1.4em 3.7em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.7em;
+    box-shadow: 0 1em 4em black ;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #800080;
+}
+input,
+#sumbit{
+    border: none;
+    outline: none;
+    display: block;
+}
+input{
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 2em;
+    font-size: 20px;
+    padding: 1em 0 0.5em 0.5em;
+    border-bottom: 2px solid #202020;
+}
+#sumbit{
+    position: relative;
+    left: 0;
+    font-size: 1.1em;
+    width: 7em;
+    background: #800080;
+    color: aliceblue;
+    padding: 0.8em 0;
+    margin-top: 2em;
+    border-radius: 0.3em;
+}
+#mesage{
+    font-size: 1em;
+    margin-top: 1.5em;
+    color: #04c404;
+    visibility: hidden;
+}
